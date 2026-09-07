@@ -33,23 +33,37 @@ I design and ship products end to end, alone, using AI-assisted development (Cla
 Source is private (client work and personal financial data), shown here so you can see what they do.
 
 ### 🏭 Fábrica de Crecimiento
-Multi-tenant agentic content pipeline for a real marketing agency. It scrapes what's working in a client's niche, transcribes and reasons over it with an LLM (Gemini), and generates a full omnichannel campaign (Reel script, X thread, carousel, newsletter) — held at a human-approval gate before anything ships. Every generated slide is validated against layout rules in code, not trusted from the model's output directly.
+Multi-tenant agentic content pipeline for a real marketing agency. It scrapes what's working in a client's niche, transcribes and reasons over it with an LLM (Gemini), and generates a full omnichannel campaign (Reel script, X thread, carousel, newsletter) — held at a human-approval gate before anything ships. Every generated slide is validated against layout rules in code, not trusted from the model's output directly — four layout roles (cover, body, highlight, close), each with its own composition rules.
 
-<p align="center"><img src="./assets/fabrica-carousel.png" width="280" alt="Fábrica de Crecimiento — generated carousel slide" /></p>
+<p align="center">
+  <img src="./assets/fabrica-carousel.png" width="31%" alt="Fábrica de Crecimiento — testimonial slide" />
+  <img src="./assets/fabrica-testimonio.png" width="31%" alt="Fábrica de Crecimiento — quote slide" />
+  <img src="./assets/fabrica-afiche.png" width="31%" alt="Fábrica de Crecimiento — poster slide" />
+</p>
 
-### 📊 Trading Performance Tracker
-A trading journal with a Claude-based module that analyzes behavioral patterns across my own P/L history — calendar view, equity curve, and stats broken down by day/hour/setup.
+### 📊 Trading Performance Tracker (TradeLog)
+A trading journal with a Claude-based module ("Análisis con IA") that analyzes behavioral patterns across my own P/L history — calendar view, equity curve, and stats broken down by day/hour/setup.
+
+<p align="center">
+  <img src="./assets/tradelog-dashboard.png" width="48%" alt="TradeLog — dashboard" />
+  <img src="./assets/tradelog-analisis-ia.png" width="48%" alt="TradeLog — AI analysis powered by Claude" />
+</p>
 
 ### 🔍 Analizador de Trades
-Hotkey-triggered tool (F9) that captures the screen, uses Gemini Vision to extract trade data marked on the chart, and logs it straight into a local dashboard — turns manual journaling into one click.
+Hotkey-triggered tool (F9) that captures the screen, uses Gemini Vision to extract trade data marked on the chart, and logs it straight into a local dashboard — turns manual journaling into one click. Segments every strategy separately and computes institutional-grade stats (SQN, Sharpe, Sortino, Calmar, Kelly %) per instrument.
+
+<p align="center">
+  <img src="./assets/analizador-estrategias.png" width="48%" alt="Analizador de Trades — strategy breakdown" />
+  <img src="./assets/analizador-stats.png" width="48%" alt="Analizador de Trades — statistics" />
+</p>
 
 ### 🥗 NutriCam / FitCam
 A pair of health apps (Next.js/Firebase). NutriCam identifies meals from a photo and estimates nutritional value with vision AI; FitCam generates workout routines and guides recovery.
 
+<p align="center"><img src="./assets/nutricam-dashboard.png" width="60%" alt="NutriCam — coach dashboard" /></p>
 <p align="center">
-  <img src="./assets/nutricam-dashboard.png" width="30%" alt="NutriCam — coach dashboard" />
-  <img src="./assets/fitcam-rutinas.jpeg" width="30%" alt="FitCam — routines" />
-  <img src="./assets/fitcam-racha.jpeg" width="30%" alt="FitCam — streak/onboarding" />
+  <img src="./assets/fitcam-rutinas.jpeg" width="26%" alt="FitCam — routines" />
+  <img src="./assets/fitcam-racha.jpeg" width="26%" alt="FitCam — streak/onboarding" />
 </p>
 
 ---
