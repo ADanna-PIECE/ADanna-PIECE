@@ -21,25 +21,41 @@ I design and ship products end to end, alone, using AI-assisted development (Cla
 
 ---
 
-### Public here
+## Public repos
 
 - **[ALGOCODE](https://github.com/ADanna-PIECE/ALGOCODE)** — Python backtesting infrastructure: walk-forward validation, friction-cost auditing, portfolio correlation analysis, and an ETL pipeline for high-frequency OHLCV data.
 - **[MyPage](https://github.com/ADanna-PIECE/MyPage)** — source for my portfolio site.
 
-### Also shipped (private — client/production work)
+---
 
-**Fábrica de Crecimiento** — a multi-tenant agentic content pipeline for a marketing agency: scrapes a niche, transcribes and reasons over content with an LLM (Gemini), generates a full omnichannel campaign, and holds everything at a human-approval gate before it ships.
+## Also shipped — private, client work in production
 
-**Trading Performance Tracker** — a trading journal with a Claude-based module that analyzes behavioral patterns across P/L history.
+Source is private (client work and personal financial data), shown here so you can see what they do.
 
-**Analizador de Trades** — a Gemini Vision pipeline that extracts structured trade data from screenshots in real time.
+### 🏭 Fábrica de Crecimiento
+Multi-tenant agentic content pipeline for a real marketing agency. It scrapes what's working in a client's niche, transcribes and reasons over it with an LLM (Gemini), and generates a full omnichannel campaign (Reel script, X thread, carousel, newsletter) — held at a human-approval gate before anything ships. Every generated slide is validated against layout rules in code, not trusted from the model's output directly.
 
-**NutriCam / FitCam** — a pair of health apps (Next.js/Firebase) using vision AI to identify meals from photos and generate fitness routines.
+<p align="center"><img src="./assets/fabrica-carousel.png" width="280" alt="Fábrica de Crecimiento — generated carousel slide" /></p>
+
+### 📊 Trading Performance Tracker
+A trading journal with a Claude-based module that analyzes behavioral patterns across my own P/L history — calendar view, equity curve, and stats broken down by day/hour/setup.
+
+### 🔍 Analizador de Trades
+Hotkey-triggered tool (F9) that captures the screen, uses Gemini Vision to extract trade data marked on the chart, and logs it straight into a local dashboard — turns manual journaling into one click.
+
+### 🥗 NutriCam / FitCam
+A pair of health apps (Next.js/Firebase). NutriCam identifies meals from a photo and estimates nutritional value with vision AI; FitCam generates workout routines and guides recovery.
 
 <p align="center">
-  <img src="./assets/nutricam-dashboard.png" width="45%" alt="NutriCam — stats dashboard" />
-  <img src="./assets/fitcam-entreno.png" width="45%" alt="NutriCam — training sync view" />
+  <img src="./assets/nutricam-dashboard.png" width="30%" alt="NutriCam — coach dashboard" />
+  <img src="./assets/fitcam-rutinas.jpeg" width="30%" alt="FitCam — routines" />
+  <img src="./assets/fitcam-racha.jpeg" width="30%" alt="FitCam — streak/onboarding" />
 </p>
-<p align="center"><sub>NutriCam dashboard views (coach-facing sync)</sub></p>
+
+---
+
+<div align="center">
 
 More detail on each project, live demos, and how I work: **[my-page-chi-eight.vercel.app](https://my-page-chi-eight.vercel.app/en)**
+
+</div>
