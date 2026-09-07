@@ -37,8 +37,9 @@ I design and ship products end to end, alone, using AI-assisted development (Cla
 **NutriCam / FitCam** — a pair of health apps (Next.js/Firebase) using vision AI to identify meals from photos and generate fitness routines.
 
 <p align="center">
-  <img src="./assets/nutricam-dashboard.png" width="45%" alt="NutriCam dashboard" />
-  <img src="./assets/fitcam-entreno.png" width="45%" alt="FitCam training sync" />
+  <img src="./assets/nutricam-dashboard.png" width="45%" alt="NutriCam — stats dashboard" />
+  <img src="./assets/fitcam-entreno.png" width="45%" alt="NutriCam — training sync view" />
 </p>
+<p align="center"><sub>NutriCam dashboard views (coach-facing sync)</sub></p>
 
 More detail on each project, live demos, and how I work: **[my-page-chi-eight.vercel.app](https://my-page-chi-eight.vercel.app/en)**
